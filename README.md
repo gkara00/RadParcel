@@ -1,7 +1,7 @@
 # RadParcel: A Dashboard for Radionuclides Dispersion Simulations
 **Version:** v0.0-beta
 
-**RadParcel** is an interactive dashboard designed to track the dispersion of radionuclides in the ocean. Built with the power of the [**OceanParcels**](https://oceanparcels.org/) Langrangian Simulator, Python, and Plotly Dash, this project enables visualization and analysis of radionuclides trajectories and activity decay influenced by ocean currents.
+**RadParcel** is an interactive dashboard designed to track the dispersion of radionuclides in the ocean. Built with the power of the [**OceanParcels**](https://oceanparcels.org/) Langrangian framework, Python, and Plotly Dash, this project enables visualization and analysis of radionuclides trajectories and activity decay influenced by ocean currents.
 
 ---
 
