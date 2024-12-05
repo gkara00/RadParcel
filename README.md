@@ -2,9 +2,9 @@
 
 # RadParcel: A Dashboard for Radionuclides Dispersion Simulations
 
-**Version:** v0.0-beta  
+**Version:** v0.0-beta
 
-**RadPrcel** is an interactive dashboard designed to track the dispersion of radionuclides in the ocean. Built with the power of the [**OceanParcels**](https://oceanparcels.org/) Langrangian Simulator, Python, and Plotly Dash, this project enables visualization and analysis of radionuclides trajectories and activity decay influenced by ocean currents.
+**RadParcel** is an interactive dashboard designed to track the dispersion of radionuclides in the ocean. Built with the power of the [**OceanParcels**](https://oceanparcels.org/) Langrangian Simulator, Python, and Plotly Dash, this project enables visualization and analysis of radionuclides trajectories and activity decay influenced by ocean currents.
 
 ---
 
@@ -36,7 +36,7 @@ This project was developed as part of [RAMONES Hackathon](https://sites.google.c
 
 ## **Contributors**
 
-Team **RadioHead** (Ocean Physics adn Modelling Group | NKUA, Athens):
+Team **RadioHead** (Ocean Physics and Modelling Group | NKUA, Athens):
 
 - **John Karagiorgos** ([gkara00](https://github.com/gkara00))
 - **Roushit Dallenga** ([rousit55](https://github.com/rousit55))
@@ -45,7 +45,7 @@ Team **RadioHead** (Ocean Physics adn Modelling Group | NKUA, Athens):
 
 ## Acknowledgments
 
-- [Parcels: Probabilistic particle tracking framework](https://oceanparcels.org/)
+- [OceanParcels](https://oceanparcels.org/) particle tracking framework
 - [Copernicus Marine Service](https://marine.copernicus.eu/) for ocean current datasets
 - [Dash](https://dash.plotly.com/) for interactive visualization
 - [RAMONES](https://ramones-project.eu/) EU H2020 FET project
