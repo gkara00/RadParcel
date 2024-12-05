@@ -1,5 +1,3 @@
----
-
 # RadParcel:A Dashboard for Radionuclides Dispersion Simulations
 **Version:** v0.0-beta
 
