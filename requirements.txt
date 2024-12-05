@@ -1,0 +1,13 @@
+parcels
+dash
+dash-core-components
+dash-html-components
+dash-daq
+plotly
+numpy
+xarray
+matplotlib
+pandas
+netcdf4
+cartopy
+zarr
