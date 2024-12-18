@@ -8,6 +8,8 @@ import xarray as xr
 from parcels import FieldSet, ParticleSet, JITParticle, AdvectionRK4, ErrorCode, Variable
 from datetime import timedelta, datetime
 from operator import attrgetter
+import os
+import sys
 
 # Initialize Dash app
 app = dash.Dash(__name__)
@@ -101,7 +103,16 @@ def load_currents():
 
     # Load realistic ocean current data (replace with your netCDF file path)
     # Example using Copernicus dataset for the Mediterranean (https://data.marine.copernicus.eu/product/MEDSEA_ANALYSISFORECAST_PHY_006_013/description)
-    dataset_path = "/home/gkara/Downloads/cmems_mod_med_phy-cur_anfc_4.2km_P1D-m_1733300227925.nc"  # Replace with actual path
+
+    dataset_path = "./data/cmems_mod_med_phy-cur_anfc_4.2km_P1D-m_1733300227925.nc"  # Replace with actual path
+    # Check if the file exists
+    try:
+        os.stat(dataset_path)
+
+    except FileNotFoundError:
+        print("The ocean current data file does not exist.")
+#        sys.exit(1)
+
     ds = xr.open_dataset(dataset_path)
     ds = ds.isel(depth=0)
 
